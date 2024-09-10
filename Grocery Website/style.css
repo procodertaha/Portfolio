@@ -1,0 +1,531 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+.poppins-thin {
+   
+    font-weight: 100;
+    font-style: normal;
+  }
+.linebar{
+    width: 100%;
+    background-color: #eeeeee;
+  height: 4px;
+}
+.main{
+    width: 100%;
+    min-height: 380px;
+    height: auto;
+    background-image: url(banner.jpg);
+    background-position: center;
+   background-size: cover;
+   text-align: center;
+   overflow: hidden;
+  
+   
+}
+header{
+    width: 100%;
+    height: 88px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    box-shadow: 17px 10px 11px 0px rgb(0 0 0 / 66%);
+
+    background-color: white;
+}
+
+header img{
+    width: 262px;
+    height:  94px;
+    object-fit: cover;
+    margin-left: 36px;
+    
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    margin-right: 20px;
+}
+.navbar ul a{
+ 
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.navbar1-toggle{
+    display: none;
+}
+
+.navbar ul a:hover{
+    color: rgb(48, 224, 3);
+}
+
+.icon i{
+   
+    display: inline-block;
+
+}
+.navbar2-toggle{
+    display: none;
+}
+.btn1{
+    border: none;
+    background-color: 
+    #eeeeee;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.btn1:active{
+background-color:#b9ababc4 ;
+}
+.fa-magnifying-glass,.fa-cart-shopping,.fa-user{
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+.section1 {
+    width: 100%;
+    height: 352px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+    text-wrap: wrap;
+
+}
+.heading h2{
+    margin-top: 38px;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 22px;
+}
+.heading p{
+    font-size: 17px;
+    font-weight: 500;
+}
+.fresh{
+    color: #49b73f;
+}
+
+.heading .btn2{
+    display: block ;
+   margin-left: 326px;
+   margin-top: 30px;
+   background-color: transparent;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+.heading .btn2 a{
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.section2{
+    width: 100%;
+    height: auto;
+    background-color: #eeeeee;
+    text-align: center;
+    overflow: hidden;
+}
+.heading2  {  
+    padding:46px ;
+}
+.features-heading {
+    background-color: #49b73f;
+    color: white;
+   padding: 5px 15px;
+border-radius: 6px;
+}
+.ourresponse{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+.organic-delivery-payment{
+    background-color: white;
+    width: 326px;
+    height: 300px;
+ 
+    box-shadow: 0 0 0 2px #4CAF50; 
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.organic-delivery-payment .img1,.img2{
+    width: 120px;
+   height: 120px;
+   margin-top: 27px;
+}
+
+.img3{
+    width: 260px;
+    height: 136px;
+    margin-top: 10px;
+}
+.organic-delivery-payment h2{
+    line-height:30px;
+}
+.ourresponse .btn3{
+  
+   background-color: transparent;
+   border: 1px solid black;
+   border-radius: 5px;
+   margin-top: 10px;
+}
+
+.ourresponse .btn3 a{
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.heading3{
+    padding: 46px;
+}
+
+
+.ourproducts{
+    display: grid;
+    grid-template-columns: repeat(3,326px) ;
+    grid-template-rows: repeat(2,326px);
+    gap: 7px;
+    justify-content: center;
+   min-height:  300px;
+    line-height: 30px;
+    padding: 10px;
+   
+}
+.ourproducts .freshcauliflower ,.freshtomato, .freshonion, .freshspinach, .freshcarrot, .freshgreenpea{
+    background-color: white;
+    box-shadow: 3px 7px 14px 0px #d0c7c7;
+}
+
+.fresh{
+    width: 204px;
+    height: auto;
+}
+.freshcauliflower .fresh{
+    margin-top: 32px;
+    width: 172px;
+    height: auto;
+}
+.freshtomato .fresh{
+    margin-top: 32px;
+    width: 298px;
+    height: auto;
+}
+.freshonion .fresh{
+    margin-top: 34px;
+    width: 222px;
+    height: auto;
+}
+.freshspinach .fresh{
+    margin-top: 34px;
+    width: 165px;
+    height: auto;
+}
+.freshcarrot .fresh{
+    margin-top: 6px;
+    width: 202px;
+    height: auto;     
+}
+.freshgreenpea .fresh{
+    margin-top: 45px;
+    width: 208px;
+    height: auto;     
+}
+
+.ourproducts .btn4{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    }
+    .ourproducts .btn4 a{
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    }
+.heading4{
+    padding: 46px;
+}
+.productcategories{
+    width: 100%;
+}
+.categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+gap: 5px;
+flex-wrap: wrap;
+
+}
+.categories .vegetable, .freshfruit, .dairyproducts, .freshmeat{
+width: 250px;
+background-color: white;
+height: 344px;
+  box-shadow: 3px 7px 14px 0px #d0c7c7;
+  
+  /* flex-wrap: wrap; */
+}
+/* .categories .dairyproducts, .freshmeat{
+    flex-wrap: wrap;
+    flex-direction: row;
+ } */
+
+.categories .vegetableimg{
+    margin-top: 22px;
+    width: 221px;
+    height: auto;
+}
+.categories .appleimg{
+    margin-top: 24px;
+    width: 207px;
+    height: auto;
+}
+
+.categories .dairyproductsimg{
+    margin-top: 63px;
+    width: 227px;
+    height: auto;
+}
+.categories .dairyproducts h2{
+    margin-top: 18px;
+}
+
+
+.categories .freshmeatimg{
+    margin-top: 65px;
+    width: 205px;
+    height: auto;
+}   
+.categories .freshmeat h2{
+    margin-top: 21px;
+}
+.categories .btn5{
+    display: block;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 74px;
+}
+.categories .btn5 a{
+    display: block;
+font-size: 16px;
+padding: 10px;
+text-decoration: none;
+color: black;
+font-weight: 600;
+}
+
+.heading5{
+    padding: 52px;
+}
+
+.clients{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.clients .client1, .client2, .client3{
+    width: 297px;
+    height: 310px;
+    background-color: white;
+
+    box-shadow: 3px 7px 14px 0px #d0c7c7;
+    padding: 10px;
+    border-radius: 6px;
+}
+.client3{
+    flex-direction: row;
+    
+}
+
+.clients img{
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.clients p{
+    margin-top: 46px;
+   
+}
+.fa-star{
+    color: yellow;
+  
+}
+.clients h2{
+ 
+    color: #49b73f;
+}
+
+
+
+.blogs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.blog1,.blog2,.blog3{
+    width: 306px;
+    height: 472px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 3px 7px 14px 0px #d0c7c7;
+}
+.blog1img {
+    width: 300px;
+    height: auto;
+}
+.blog2img{
+    width: 260px;
+    height: auto;
+}
+
+.blog2 .fa-user{
+    margin-top: 206px;
+}
+
+
+.blog3img{
+    width: 252px;
+    height: auto;
+}
+.blog3  .fa-user{
+        margin-top: 207px;
+}
+
+.blogs .fa-user{
+    float: left;
+   color: #49b73f;
+}
+
+.blogs .userspan{
+    font-size: 13px;
+    margin-top: 10px;
+    float: left;
+}
+.blogs .datespan{
+    float: right;
+    margin-top: 10px;
+    
+}
+.blogs .fa-calendar-days{
+    float: right;
+    margin-top: 10px;
+}
+hr{
+    margin-top: 38px;
+    background-color: #d0c7c7;
+}
+.blogs .btn6{
+    /* display: block; */
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+.blogs .btn6 a{
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.lastsection{
+    width: 100%;
+    height: 400px;
+    display: grid;
+   grid-template-columns: 1fr 380px 1fr 1fr;
+   /* justify-content: center;    */
+   /* align-items: center; */
+    background-color: white;
+    text-align: center;
+ 
+}
+.logosection img{
+    /* display: inline-block; */
+    width: 192px;
+    height: auto;  
+}
+.logosection, .contactinfo, .contactinfo, .quicklinks{
+    padding: 10px;
+}
+.iconsfotter{
+    font-size: 20px;
+    padding-top: 5px;
+}
+.fa-facebook, .fa-instagram ,.fa-x-twitter, .fa-linkedin{
+    padding: 5px;
+    background-color: #d0c7c7 ;
+    margin-right: 13px;
+    
+}
+
+.contactinfo{
+    line-height: 60px;
+}
+.fa-phone , .fa-message, .fa-map-location-dot{
+    color: green;
+    font-size: 20px;
+}
+.quicklinks{
+    line-height: 45px;
+    text-align: justify;
+}
+.fa-arrow-right{
+    color: green;
+    font-size: 15px;
+   
+}
+.newsletter{
+    line-height:55px;
+    text-align: justify;
+}
+.newsletter .btn7{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.newsletter .btn7 a{
+    display: block;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600
+}

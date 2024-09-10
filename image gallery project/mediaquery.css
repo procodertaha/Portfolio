@@ -1,0 +1,11 @@
+@media(max-width: 1024){
+    .image-right{
+        margin-top: 0px;
+    }
+}
+@media(max-width: 834px){
+    .grid-image{
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        grid-template-columns: repeat(auto-fill,minmax(190px,1fr));
+    }
+}

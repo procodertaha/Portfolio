@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.main{
+    
+    width: 100%;
+    height: 100vh;
+    
+    background: rgba(0,0,0,0.7) url(netflix-11.webp);
+    background-blend-mode: darken;
+
+} 
+.header{
+    background: rgba(0,0,0,0.2);
+    width: 100%;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.hideimg{
+   width: 168px;
+   height: 40px;
+   margin-left: 164px;
+}
+.signinbtn{
+    width: 94px;
+    height: 30px;
+    margin-left: 409px;
+    border: none;
+    border-radius: 5px;
+    background-color:
+    #e50914;
+}
+
+.signinbtn a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 8px;
+}
+.section1{
+
+
+    width: 100%;
+    height: 576px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texting h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
+.texting p{
+    text-align: center;
+    color: white;
+    font-size: 21px;
+}
+
+.btn{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.email{
+    width: 320px;
+    height: 50px;
+    padding-left: 24px;
+    border-radius: 4px;
+    background-color: transparent;
+    border:1px solid white;
+    
+}
+
+
+
+.btn1{
+    border-radius: 4px;
+    background-color: 
+    #e50914;
+    margin-top: 2px;
+    width: 200px;
+    height:50px;
+    border: none;
+    margin-left: 6px;
+}
+ 
+.btn1 a{
+    
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 11px;
+    text-decoration: none;
+}
+
+.forcolor{
+   
+    background-color:  #232323;
+    width: 100%;
+    height: 7px;
+}
+.section2{
+
+   background-color: black;
+    width: 100%;
+    height: 510px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.sec2working{
+    margin-left: 104px;
+}
+.section2 h2{
+    color:  #b2b2b2;
+    font-weight: 800;
+    line-height: 106px;
+    font-size: 55px;
+  
+    }
+.section2 p{
+    color:  #b2b2b2;
+    font-size: 25px;
+    
+}
+.section2 img{
+    width: 82%;
+}
+.section3{
+    background-color: black;
+    width: 100%;
+    height: 510px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+    font-family:sans-serif;
+color:  #b2b2b2;
+}
+.section3 img{
+    width: 82%;
+    margin-left: 10px
+}
+.sec3working{
+    margin-left: 88px;
+}
+.sec3working h2{
+    font-weight: 800;
+    font-size: 45px;
+}
+.sec3working p{
+    font-size: 25px;
+}
+
+.section4{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    max-height: 1270px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.faq {
+    width: 1022px;
+    margin: 10px;
+ 
+}
+.faq h1{
+    margin-top: 52px;
+    text-align: center;
+    margin-bottom: 42px;
+    font-size: 50px;
+    font-weight: 800;
+}
+details{
+    font-size: 20px;
+    padding: 22px;
+    background-color: 
+    #2d2d2d;
+    margin-bottom: 10px;
+    list-style: none;
+    
+}
+summary{
+    list-style: none;
+}
+summary::after{
+    content: "+";
+    font-size: 26px;
+    float: right;
+}
+
+details[open] summary::after{
+    content: "-";
+    font-size: 26px;
+    float: right;
+}
+.sec4text{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.faq .btn{
+    margin-bottom: 70px;
+}
+
+footer{
+    width: 100%;
+    height: 384px;
+    background-color: black;
+    color: white;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+footer a,p{
+    display: block;
+    color:  #afafaf;
+    line-height: 40px;
+    font-size: 18px;
+}
+footer a p{
+    margin-top: 10px;
+}
+.row1 details{
+    font-size: 16px;
+    padding: none;
+    background-color: 
+    #2d2d2d;
+
+}
+
+/* -------------------------------------------------------------------------------------------- 
+second sign in page*/
+.signinpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signin{
+    background: rgba(0,0,0,0.6);
+    width: 290px;
+    height: 480px;
+    border-radius: 32px;
+    padding: 58px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.emailps input{
+    margin-top: 20px;
+    width: 100%;
+    height: 42px;
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 13px;
+    border: 1px solid    #363435;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+}
+.signinmethod button  {
+   
+    width: 105%;
+    height: 40px;
+    margin-top: 5px;
+    border: none;
+    background-color: transparent;
+}
+.signinmethod   a{
+  
+    display: block;
+  padding: 13px;
+}
+
+.signinmethod .onlysignin a{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.signinmethod p{
+    margin-top: 10px;
+text-align: center;
+}
+.onlysignin2 a{
+    background-color:  #373435;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.signinmethod a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 10px ;
+
+}
+.signinmethod a:hover{
+    
+    text-decoration: underline;
+
+}
+.checkbox input,span{
+    width: 38px;
+    height: 15px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.new a{
+    margin-top: 15px;
+    margin-left: 13px;
+    color: white;
+}
+.new a:hover{
+    text-decoration: underline;
+}
+.note{
+    margin-top: 32px;
+}
+.note span,a{
+    font-size: 14px;
+    line-height: normal;
+    color: white;
+    text-decoration: none;
+}
+.note a:hover{
+    text-decoration: underline;
+}

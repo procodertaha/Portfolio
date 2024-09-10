@@ -1,0 +1,86 @@
+@media screen and (max-width:1024px){
+    .ourresponse{
+        gap: 11px;
+        padding: 12px;
+    }
+    /* .organic-delivery-payment{
+        flex-direction: column;
+     
+    } */
+   .ourproducts{
+    grid-template-columns: repeat(2,360px);
+    grid-template-rows: repeat(3,326px);
+    }
+   
+ .categories{
+    /* justify-content: center; */
+ }
+ .categories .vegetable, .freshfruit, .dairyproducts, .freshmeat{
+    width: 334px;
+    padding: 11px;
+}
+
+ /* .categories .dairyproducts, .freshmeat{
+    flex-direction: column;
+ } */
+ .categories .btn5 {
+    margin-top: 12px;
+    margin-left: 127px;}
+.clients{
+    gap: 63px;
+}
+
+  /* .clients .client3{
+    flex-basis: 100%;
+    width:326px;
+    order:3;
+
+ }
+ .clients .client1, .clients .client2{
+    order: 1;
+ } */
+  .blogs{
+    gap: 34px;
+  }
+  /* .lastsection{
+    g
+    grid-template-rows: repeat(4,360px);
+ .section1{
+    width: 50%;
+   
+ } */
+
+}
+
+
+/* @media screen and (max-width: 880px) {
+    .icon .btn1{
+        display: none;
+    }
+    .navbar2-toggle{
+        display: block;
+    }
+
+
+
+}
+
+@media screen and (max-width:773px) {
+    .navbar ul a{
+        display: none;
+    }
+
+    header img{
+        width: 182px;
+        height: 53px;
+        object-fit: cover;
+        margin-left: -26px;
+    }
+    .headera .navbar1-toggle{
+        display: block;
+        float: left;
+        margin-top: 20px;
+       
+    }
+
+} */
